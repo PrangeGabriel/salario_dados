@@ -22,7 +22,7 @@ Comparação prática do mesmo dashboard de salários da área de dados implemen
 
 ![Dashboard Tableau](outputs/Painel Análise de Salários na área de dados_TABLEAU.png)
 
-### 📈 Power BI
+### 📈 Power BI (em construção)
 **Link:** [Acessar Relatório Power BI](outputs/Dash Análise de Salários.pbix)  
 **Descrição:** Relatório corporativo com métricas business e formatação condicional.
 
