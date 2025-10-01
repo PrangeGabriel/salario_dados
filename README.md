@@ -23,10 +23,10 @@ Comparação prática do mesmo dashboard de salários da área de dados implemen
 ![Dashboard Tableau](outputs/Painel Análise de Salários na área de dados_TABLEAU.png)
 
 ### 📈 Power BI
-**Link:** [Acessar Relatório Power BI](reports/dashboard.pbix)  
+**Link:** [Acessar Relatório Power BI](outputs/Dash Análise de Salários.pbix)  
 **Descrição:** Relatório corporativo com métricas business e formatação condicional.
 
-![Dashboard Power BI](images/powerbi-dashboard.png)
+![Dashboard Power BI](images/outputs/Dash Análise de Salários.pbix)
 
 ### 🗃️ PostgreSQL
 **Scripts:** [Consultas SQL](sql/)
