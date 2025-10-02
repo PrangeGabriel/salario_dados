@@ -11,19 +11,19 @@ Comparação prática do mesmo dashboard de salários da área de dados implemen
 ## 📊 Dashboards Implementados
 
 ### 🚀 Streamlit (Python)
-**Link:** [Acessar Dashboard Streamlit](https://dash-app-alura.streamlit.app/))  
+**Link:** [Acessar Dashboard Streamlit](https://dash-app-alura.streamlit.app/)  
 **Descrição:** Dashboard interativo com filtros dinâmicos, gráficos Plotly e análise em tempo real.
 
-![Dashboard Streamlit](outputs/PrintScreen_Streamlit.png)
+![Dashboard Streamlit](5_docs/PrintScreen_Streamlit.png)
 
 ### 🎨 Tableau Public
 **Link:** [Acessar Dashboard Tableau](https://public.tableau.com/app/profile/gabriel.castanheira/viz/AnlisedeSalrios/PainelAnlisedeSalriosnareadedados)  
 **Descrição:** Visualizações profissionais com drill-down e ferramentas de análise integradas.
 
-![Dashboard Tableau](outputs/Painel Análise de Salários na área de dados_TABLEAU.png)
+![Dashboard Tableau](5_docs/painel_tableau.png)
 
 ### 📈 Power BI (em construção)
-**Link:** [Acessar Relatório Power BI](outputs/Dash Análise de Salários.pbix)  
+**Link:** [Acessar Relatório Power BI](1_dashboards/Dash_Análise_Salários.pbix)  
 **Descrição:** Relatório corporativo com métricas business e formatação condicional.
 
 ![Dashboard Power BI](images/outputs/Dash Análise de Salários.pbix)
