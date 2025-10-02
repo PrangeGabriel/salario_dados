@@ -37,6 +37,28 @@ Comparação prática do mesmo dashboard de salários da área de dados implemen
 - **Python:** Pandas, NumPy, Plotly, Streamlit
 - **Visualização:** Tableau, Power BI
 - **Banco de Dados:** PostgreSQL
-- **Ferramentas:** Jupyter Notebook, Git
+- **Ferramentas:** Google Colab, Git
 
 ## 📁 Estrutura do Projeto
+```
+salario_dados/
+├── 📊 1_dashboards/
+│ ├── app.py
+│ ├── Análise de Salários.twb
+│ └── Dash_Análise_Salários.pbix
+├── 📁 2_data/
+│ ├── raw/
+|   └──salaries.csv
+│ ├── processed/
+|   └── dados_imersao_final.csv
+├── 📁 3_sql/
+│ ├── 
+│ └── 
+├── 📁 4_notebooks/
+│ └── Imersão de dados com python.ipynb
+├── 📁 5_docs/
+│ ├── PrintScreen_Streamlit.png
+│ └── painel_tableau.png
+├── requirements.txt
+└── README.md
+```
