@@ -18,7 +18,7 @@ Comparação prática do mesmo dashboard de salários da área de dados implemen
 
 ### 🎨 Tableau Public
 **Link:** [Acessar Dashboard Tableau](https://public.tableau.com/app/profile/gabriel.castanheira/viz/AnlisedeSalrios/PainelAnlisedeSalriosnareadedados)  
-**Descrição:** Visualizações profissionais com drill-down e ferramentas de análise integradas.
+**Descrição:** A visualização de gráfico em donut foi trocada por uma mais apropriada, pois por motivos como perda de precisão, em que ângulos similares geram dificuldade de comparação visual, foi preferível fazer outro gráfico e trazer dados mostrando quais nacionalidades e quantas pessoas, cada país contrata. Adicionei também linhas médias e mediana na distribuição de Salários Anuais, e dois KPIs foram trocados por outros indicadores.
 
 ![Dashboard Tableau](5_docs/painel_tableau.png)
 
