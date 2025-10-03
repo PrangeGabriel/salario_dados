@@ -1,6 +1,30 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from psycopg2 import sql
+
+# Configuração da conexão
+@st.cache_resource
+def init_connection():
+    return psycopg2.connect(
+        host=st.secrets["DB_HOST"],
+        database=st.secrets["DB_NAME"],
+        user=st.secrets["DB_USER"],
+        password=st.secrets["DB_PASSWORD"]
+    )
+
+conn = init_connection()
+
+# Função para executar queries
+@st.cache_data(ttl=600)  # Cache por 10 minutos
+def run_query(query):
+    return pd.read_sql(query, conn)
+
+# Exemplo de uso
+df = run_query("SELECT * FROM salarios")
+st.dataframe(df)
+
+# -- Fim da configuração da conexão
 
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
@@ -13,7 +37,7 @@ st.set_page_config(
 #carregamenmto dos dados, ver como carregar meus próprios dados
 
 # --- Carregamento dos dados ---
-df = pd.read_csv(r"dados\dados_imersao_final.csv")
+# df = pd.read_csv(r"dados\dados_imersao_final.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")

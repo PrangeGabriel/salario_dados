@@ -4,3 +4,4 @@ plotly==5.24.1
 ipykernel==6.29.4
 notebook==7.1.2
 matplotlib==3.8.0
+sqlalchemy=2.0.43 
