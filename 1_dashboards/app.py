@@ -1,12 +1,12 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from psycopg2 import sql
+from psycopg import sql
 
 # Configuração da conexão
 @st.cache_resource
 def init_connection():
-    return psycopg2.connect(
+    return psycopg.connect(
         host=st.secrets["DB_HOST"],
         database=st.secrets["DB_NAME"],
         user=st.secrets["DB_USER"],
